@@ -6,7 +6,7 @@ locals {
       description            = "Allow HTTP"
 
     }
-    https = {
+    "allow_https" = {
       priority               = 110
       destination_port_range = "443"
       description            = "Allow HTTPS"
